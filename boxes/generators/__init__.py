@@ -37,6 +37,7 @@ class UIGroup:
 
 
 ui_groups: list[UIGroup] = [
+    UIGroup("Alan", "Alan's work"),
     UIGroup("Box", "Boxes", image="UniversalBox"),
     UIGroup("FlexBox", "Boxes with flex", image="RoundedBox"),
     UIGroup("Tray", "Trays and Drawer Inserts", image="TypeTray"),
